@@ -8,11 +8,11 @@ attrs==21.2.0
     # via pytest
 backports.entry-points-selectable==1.1.0
     # via virtualenv
-boto3==1.19.8
+boto3==1.19.12
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-botocore==1.22.8
+botocore==1.22.12
     # via
     #   -r requirements/py39-reqs/install.txt
     #   boto3
@@ -35,7 +35,7 @@ configargparse==1.5.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-configparser==5.0.2
+configparser==5.1.0
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
@@ -76,7 +76,7 @@ flent==2.0.1
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-google-auth==2.3.2
+google-auth==2.3.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   kubernetes
@@ -112,7 +112,7 @@ markupsafe==2.0.1
     # via
     #   -r requirements/py39-reqs/install.txt
     #   jinja2
-numpy==1.21.3
+numpy==1.21.4
     # via
     #   -r requirements/py39-reqs/install.txt
     #   pandas
@@ -147,7 +147,7 @@ prometheus-api-client==0.4.2
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-py==1.10.0
+py==1.11.0
     # via
     #   pytest
     #   tox
@@ -200,7 +200,7 @@ redis==3.5.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-regex==2021.10.23
+regex==2021.11.2
     # via
     #   -r requirements/py39-reqs/install.txt
     #   dateparser
@@ -231,7 +231,7 @@ s3transfer==0.5.0
     # via
     #   -r requirements/py39-reqs/install.txt
     #   boto3
-scipy==1.7.1
+scipy==1.7.2
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
@@ -275,7 +275,7 @@ urllib3==1.26.7
     #   elasticsearch
     #   kubernetes
     #   requests
-virtualenv==20.9.0
+virtualenv==20.10.0
     # via tox
 websocket-client==1.2.1
     # via

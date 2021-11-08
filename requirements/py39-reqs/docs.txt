@@ -18,11 +18,11 @@ backcall==0.2.0
     # via ipython
 bleach==4.1.0
     # via nbconvert
-boto3==1.19.8
+boto3==1.19.12
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-botocore==1.22.8
+botocore==1.22.12
     # via
     #   -r requirements/py39-reqs/install.txt
     #   boto3
@@ -47,7 +47,7 @@ configargparse==1.5.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-configparser==5.0.2
+configparser==5.1.0
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
@@ -94,7 +94,7 @@ flent==2.0.1
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-google-auth==2.3.2
+google-auth==2.3.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   kubernetes
@@ -136,7 +136,7 @@ jmespath==0.10.0
     #   -r requirements/py39-reqs/install.txt
     #   boto3
     #   botocore
-jsonschema==4.1.2
+jsonschema==4.2.1
     # via nbformat
 jupyter-client==7.0.6
     # via
@@ -198,7 +198,7 @@ nest-asyncio==1.5.1
     #   nbclient
 notebook==6.4.5
     # via snafu (setup.cfg)
-numpy==1.21.3
+numpy==1.21.4
     # via
     #   -r requirements/py39-reqs/install.txt
     #   pandas
@@ -243,7 +243,7 @@ prometheus-api-client==0.4.2
     #   snafu (setup.cfg)
 prometheus-client==0.12.0
     # via notebook
-prompt-toolkit==3.0.21
+prompt-toolkit==3.0.22
     # via ipython
 ptyprocess==0.7.0
     # via
@@ -258,7 +258,7 @@ pyasn1-modules==0.2.8
     # via
     #   -r requirements/py39-reqs/install.txt
     #   google-auth
-pycparser==2.20
+pycparser==2.21
     # via cffi
 pygments==2.10.0
     # via
@@ -309,7 +309,7 @@ redis==3.5.3
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)
-regex==2021.10.23
+regex==2021.11.2
     # via
     #   -r requirements/py39-reqs/install.txt
     #   dateparser
@@ -341,7 +341,7 @@ s3transfer==0.5.0
     # via
     #   -r requirements/py39-reqs/install.txt
     #   boto3
-scipy==1.7.1
+scipy==1.7.2
     # via
     #   -r requirements/py39-reqs/install.txt
     #   snafu (setup.cfg)

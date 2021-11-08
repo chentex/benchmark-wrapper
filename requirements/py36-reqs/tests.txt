@@ -13,11 +13,11 @@ backports.zoneinfo==0.2.1
     #   -r requirements/py36-reqs/install.txt
     #   pytz-deprecation-shim
     #   tzlocal
-boto3==1.19.8
+boto3==1.19.12
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
-botocore==1.22.8
+botocore==1.22.12
     # via
     #   -r requirements/py36-reqs/install.txt
     #   boto3
@@ -40,7 +40,7 @@ configargparse==1.5.3
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
-configparser==5.0.2
+configparser==5.1.0
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
@@ -81,7 +81,7 @@ flent==2.0.1
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
-google-auth==2.3.2
+google-auth==2.3.3
     # via
     #   -r requirements/py36-reqs/install.txt
     #   kubernetes
@@ -161,7 +161,7 @@ prometheus-api-client==0.4.2
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
-py==1.10.0
+py==1.11.0
     # via
     #   pytest
     #   tox
@@ -214,7 +214,7 @@ redis==3.5.3
     # via
     #   -r requirements/py36-reqs/install.txt
     #   snafu (setup.cfg)
-regex==2021.10.23
+regex==2021.11.2
     # via
     #   -r requirements/py36-reqs/install.txt
     #   dateparser

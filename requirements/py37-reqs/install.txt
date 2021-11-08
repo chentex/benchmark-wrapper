@@ -8,9 +8,9 @@ backports.zoneinfo==0.2.1
     # via
     #   pytz-deprecation-shim
     #   tzlocal
-boto3==1.19.8
+boto3==1.19.12
     # via snafu (setup.cfg)
-botocore==1.22.8
+botocore==1.22.12
     # via
     #   boto3
     #   s3transfer
@@ -25,7 +25,7 @@ charset-normalizer==2.0.7
     # via requests
 configargparse==1.5.3
     # via snafu (setup.cfg)
-configparser==5.0.2
+configparser==5.1.0
     # via snafu (setup.cfg)
 dataclasses==0.6
     # via snafu (setup.cfg)
@@ -43,7 +43,7 @@ elasticsearch==7.13.4
     # via snafu (setup.cfg)
 flent==2.0.1
     # via snafu (setup.cfg)
-google-auth==2.3.2
+google-auth==2.3.3
     # via kubernetes
 idna==3.3
     # via requests
@@ -63,7 +63,7 @@ kubernetes==11.0.0
     #   snafu (setup.cfg)
 markupsafe==2.0.1
     # via jinja2
-numpy==1.21.3
+numpy==1.21.4
     # via
     #   pandas
     #   prometheus-api-client
@@ -108,7 +108,7 @@ pyyaml==6.0
     #   snafu (setup.cfg)
 redis==3.5.3
     # via snafu (setup.cfg)
-regex==2021.10.23
+regex==2021.11.2
     # via dateparser
 requests==2.26.0
     # via
@@ -126,7 +126,7 @@ ruamel.yaml.clib==0.2.6
     # via ruamel.yaml
 s3transfer==0.5.0
     # via boto3
-scipy==1.7.1
+scipy==1.7.2
     # via snafu (setup.cfg)
 six==1.16.0
     # via
